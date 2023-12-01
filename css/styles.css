@@ -1,0 +1,113 @@
+/* Desktops */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../medias/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: justify;
+    color: #595959;
+}
+
+.section img {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.logoCanto img {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    max-height: 8%;
+    width: auto;
+}
+
+#home {
+    padding: 100px 10% 10% 10%;
+}
+
+.logoTopo img {
+    margin: 0;
+    padding: 0;
+    max-width: 40%;
+    height: auto;
+}
+
+.photos img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 20px 60px 20px;
+    background-color: #f3f5f8;
+    box-shadow: 2px 2px 3px silver;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: small;
+    padding-left: 10%;
+}
+
+span {
+    font-size: 1.3em;
+    margin-top: 7%;
+}
+
+.contacts {
+    margin-top: 120px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts td {
+    min-width: 25px;
+    height: 200px;
+}
+
+.contacts img {
+    max-height: 130px;
+    width: auto;
+}
+
+hr {
+    width: 40%;
+    color: #595959;
+}
+
+footer img {
+    max-height: 120px;
+    width: auto;
+}
+
+/* Tablets e celulares */
+@media screen and (max-width: 768px) {
+    .logoCanto img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .logoTopo img {
+        max-width: 70%;
+    }
+
+    .contacts td {
+        height: auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

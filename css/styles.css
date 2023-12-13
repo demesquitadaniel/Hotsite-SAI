@@ -1,7 +1,18 @@
+@font-face {
+    font-family: Basker;
+    src: url("../fonts/Baskervville-Regular.ttf");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+
 /* Desktops */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../medias/background.svg");
+    font-family: Basker;
+    font-size: 0.8em;
+    background-image: url("../medias/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,18 +55,19 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 20px 60px 20px;
-    background-color: #f3f5f8;
-    box-shadow: 2px 2px 3px silver;
+    background-color: rgb(242, 245, 255);
+    /* box-shadow: 2px 2px 3px rgb(218, 218, 218); */
     border-radius: 10px;
 }
 
 h1 {
+    font-family: Inter;
     text-align: center;
     font-size: 2.5em;
 }
 
 h4 {
-    font-size: small;
+    font-size: medium;
     padding-left: 10%;
 }
 
@@ -67,7 +79,7 @@ span {
 .contacts {
     margin-top: 120px;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
 }
 
 .contacts td {
